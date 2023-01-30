@@ -1,8 +1,8 @@
-#header{
+/* #header{
   position:absolute;
   top: 0;
   left: 0;
-}
+} */
 
 /* targets all h1 on header id */
 #header h1 {
@@ -11,5 +11,6 @@
 
 /* targets all p tag on the entire html */
 p{
-  font-size: 12px;
+  color: grey;
+  font-size: 14px;
 }
