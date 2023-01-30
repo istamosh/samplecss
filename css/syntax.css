@@ -1,0 +1,15 @@
+#header{
+  position:absolute;
+  top: 0;
+  left: 0;
+}
+
+/* targets all h1 on header id */
+#header h1 {
+  font-size: 32px;
+}
+
+/* targets all p tag on the entire html */
+p{
+  font-size: 12px;
+}
