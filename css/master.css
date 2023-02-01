@@ -38,3 +38,23 @@ div{
   width: 100%;
   background-color: grey;
 }
+
+h2{
+  font-size: 24px;
+}
+
+/* override all styles with this content header ID */
+#content-header{
+  font-size: 18px;
+  color: red;
+}
+
+span{
+  display: block;
+  color: blue;
+}
+
+/* override all styles inside deck class */
+.deck{
+  color: brown;
+}
