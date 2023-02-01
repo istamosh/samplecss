@@ -1,16 +1,27 @@
+/*******************
+*
+* Author: Istamosh
+*
+********************/
+
 /* #header{
   position:absolute;
   top: 0;
   left: 0;
 } */
 
-/* targets all h1 on header id */
-#header h1 {
-  font-size: 32px;
+/* targets all h1 */
+#h1 {
+  font-size: 44px;
 }
 
 /* targets all p tag on the entire html */
 p{
   color: grey;
   font-size: 14px;
+}
+
+/* targets all header's p tag */
+#header p{
+  font-size: 24px;
 }
