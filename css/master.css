@@ -10,12 +10,6 @@
   left: 0;
 } */
 
-/* targets all p tag on the entire html */
-p{
-  color: red;
-  font-size: 12px;
-}
-
 /* targets all header's p tag */
 /* #header p{
   font-size: 24px;
@@ -30,24 +24,49 @@ span{
   text-transform: uppercase;
 }
 
+/* this will be prioritized because has ID */
+#header h1{
+  font-size: 40px;
+  color: black;
+  background-color: grey;
+}
+
 h1{
   font-size: 32px
 }
 
+/* ID wins, while class gets the second priority */
+#header p{
+  color: gray;
+}
+.ward {
+  color: lime;
+}
+.subdistrict {
+  color: aqua;
+  background-color: darkgray;
+}
+p{
+  color: violet;
+}
+strong{
+  color: red;
+}
+/* 1st and 2nd is gray, 3rd is aqua, 4th is green */
+
 div{
   width: 100%;
-  background-color: grey;
 }
 
 h2{
-  font-size: 24px;
+  font-size: 20px;
 }
 
 /* override all styles with this content header ID */
-#content-header{
+/* #content-header{
   font-size: 18px;
   color: red;
-}
+} */
 
 span{
   display: block;
@@ -57,4 +76,16 @@ span{
 /* override all styles inside deck class */
 .deck{
   color: brown;
+}
+
+body{
+  color: red;
+}
+/* override body color to green */
+p{
+  color: green;
+}
+/* only below selector can override <a> tag */
+a{
+  color: magenta;
 }
