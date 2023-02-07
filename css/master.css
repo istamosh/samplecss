@@ -101,12 +101,19 @@ p{
 
 /* using one declaration for multiple selector */
 p, span{
-  color: red;
   font-size: 14px;
   font-weight: bold;
   font-family: Arial;
 }
 
-#main-content p{
+/* using closed elbow brackets to exlude formatting on
+any sub-children (sub-content etc.) */
+#main-content > p{
   color: green;
+}
+
+/* we want to declare P tag on subcontent without
+including the P tag on parent content (main-content) */
+#main-content #sub-content p{
+  color: teal;
 }
