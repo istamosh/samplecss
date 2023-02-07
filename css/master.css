@@ -15,6 +15,7 @@
   font-size: 24px;
 } */
 
+/*
 a{
   text-decoration: underline;
   color: blue;
@@ -24,7 +25,7 @@ span{
   text-transform: uppercase;
 }
 
-/* this will be prioritized because has ID */
+/* this will be prioritized because has ID
 #header h1{
   font-size: 40px;
   color: black;
@@ -35,7 +36,7 @@ h1{
   font-size: 32px
 }
 
-/* ID wins, while class gets the second priority */
+/* ID wins, while class gets the second priority
 #header p{
   color: gray;
 }
@@ -52,7 +53,7 @@ p{
 strong{
   color: red;
 }
-/* 1st and 2nd is gray, 3rd is aqua, 4th is green */
+/* 1st and 2nd is gray, 3rd is aqua, 4th is green
 
 div{
   width: 100%;
@@ -62,18 +63,18 @@ h2{
   font-size: 20px;
 }
 
-/* override all styles with this content header ID */
+/* override all styles with this content header ID
 /* #content-header{
   font-size: 18px;
   color: red;
-} */
+}
 
 span{
   display: block;
   color: blue;
 }
 
-/* override all styles inside deck class */
+/* override all styles inside deck class
 .deck{
   color: brown;
 }
@@ -81,11 +82,31 @@ span{
 body{
   color: red;
 }
-/* override body color to green */
+/* override body color to green
 p{
   color: green;
 }
-/* only below selector can override <a> tag */
+/* only below selector can override <a> tag
 a{
   color: magenta;
+}
+*/
+
+/*
+/* important function beside declaration
+p{
+  color: red !important;
+}
+*/
+
+/* using one declaration for multiple selector */
+p, span{
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+#main-content p{
+  color: green;
 }
