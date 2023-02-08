@@ -157,3 +157,18 @@ a[href$="zip"]{
 a[href^="https"]{
   color: crimson;
 }
+
+/* using pseudo class and add hover effect on every links*/
+a:hover{
+  color: darkred;
+}
+
+/* added active effect */
+a:active{
+  color: orange;
+}
+
+/* added already visited effect */
+a:visited{
+  color: gray;
+}
