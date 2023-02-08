@@ -117,3 +117,17 @@ including the P tag on parent content (main-content) */
 #main-content #sub-content p{
   color: teal;
 }
+
+/* using adhacent selector to select specific element
+adjacent that comes after H2
+without touching the other similar element below it */
+#all-posts h2 + p{
+  color: lime;
+}
+
+/* using precedent selector for the opposite, and not work
+right after all-posts ID because p is the first selected,
+not the first h2*/
+#all-posts p ~ h2{
+  color: olive;
+}
