@@ -131,3 +131,29 @@ not the first h2*/
 #all-posts p ~ h2{
   color: olive;
 }
+
+/* using attribute selector to select all attribute
+by its selector */
+span[class]{
+  color: purple;
+}
+
+/* using more specific attribute selector */
+span[class="Day"]{
+  color: maroon;
+}
+
+/* using tilde sign wildcard naming that contains some name */
+span[class~="Gregorian"]{
+  color: aqua;
+}
+
+/* using dollar sign wildcard naming that ends with some name */
+a[href$="zip"]{
+  background-color: gray;
+}
+
+/* using caret sign wildcard naming that starts with some name */
+a[href^="https"]{
+  color: crimson;
+}
