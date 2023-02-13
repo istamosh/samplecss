@@ -192,3 +192,23 @@ article p:first-of-type{
 article p:last-of-type{
   color: red;
 }
+
+/* select the service 2 and 8 inside list page */
+li:nth-child(3), li:nth-child(10){
+  color: blue;
+}
+
+/* select the title of list */
+li:nth-child(1), li:nth-child(7){
+  font-weight: bold;
+}
+
+/* select the odd numbers, same as (odd) */
+li:nth-child(2n+1){
+  background-color: grey;
+}
+
+/* select the even numbers, same as (even) */
+li:nth-child(2n+2){
+  background-color: lime;
+}
