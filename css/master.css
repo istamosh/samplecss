@@ -232,3 +232,18 @@ div.featured-content{
 *{
   color: red;
 }*/
+
+/* make article to 16px font */
+article{
+  font-size: 16px;
+}
+
+/* make article's h2 font 3 times bigger */
+article h2{
+  font-size: 3em;
+}
+
+/* make article' p font smaller by percentage */
+article p{
+  font-size: 75%;
+}
