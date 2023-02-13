@@ -245,5 +245,26 @@ article h2{
 
 /* make article' p font smaller by percentage */
 article p{
-  font-size: 75%;
+  font-size: 125%;
+}
+
+/* add font family, priorities comes from left to right */
+article h2, article p{
+  font-family: nonExistentFont, nonExistentFont2, helvetica, sans-serif;
+}
+
+/* override article's anchor underlined text to none */
+article a{
+  text-decoration: none;
+}
+
+/* override article's h2 text to normal (DBS: bold) */
+article h2{
+  font-weight: normal;
+}
+
+/* override article's p text to lighter w/ custom font family (DBS: normal) */
+article p{
+  font-weight: lighter;
+  font-family: "Adobe Arabic";
 }
