@@ -100,11 +100,11 @@ p{
 */
 
 /* using one declaration for multiple selector */
-p, span{
+/*p, span{
   font-size: 14px;
   font-weight: bold;
   font-family: Arial;
-}
+}*/
 
 /* using closed elbow brackets to exlude formatting on
 any sub-children (sub-content etc.) */
@@ -171,4 +171,24 @@ a:active{
 /* added already visited effect */
 a:visited{
   color: gray;
+}
+
+/* first child selector
+article p:first-child{
+  font-weight: bold;
+}*/
+
+/* last child selector
+article p:last-child{
+  color: red;
+}*/
+
+/* select the first type of p inside article */
+article p:first-of-type{
+  font-weight: bold;
+}
+
+/* select the last type of p inside article */
+article p:last-of-type{
+  color: red;
 }
