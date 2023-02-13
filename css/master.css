@@ -227,3 +227,8 @@ article.featured-content{
 div.featured-content{
   background: khaki;
 }
+
+/* universal selector example, all text will be red color
+*{
+  color: red;
+}*/
