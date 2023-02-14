@@ -317,3 +317,9 @@ article p{
   width: 400px;
   height: 200px;
 }
+
+/* adding own padding px plus the parent box padding px */
+#main .smallbox{
+  padding-top: 10px;
+  padding-left: 40px;
+}
