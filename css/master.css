@@ -295,3 +295,11 @@ a:hover{
   background: cyan;
   text-decoration: underline;
 }
+
+/* adding letterspacing for every p inside articles */
+article p{
+  font-size: 30px;
+  letter-spacing: 3px;
+  word-spacing: 8px;
+  line-height: 20px;
+}
