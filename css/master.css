@@ -308,3 +308,12 @@ article p{
 article p{
   margin-bottom: 50px;
 }
+
+/* adding box model inside index */
+#main > .box{
+  margin: 32px;
+  padding: 30px;
+  border: 4px solid #000;
+  width: 400px;
+  height: 200px;
+}
