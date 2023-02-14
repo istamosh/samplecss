@@ -272,9 +272,12 @@ article p{
 /* transform header p (index) into uppercase every letter */
 #header p{
   text-transform: uppercase;
+  color: chocolate;
+  background-color: beige;
 }
 
 /* transform body direct descendant/child p into capital */
 body > p{
   text-transform: capitalize;
+  color: #181785;
 }
