@@ -281,3 +281,17 @@ body > p{
   text-transform: capitalize;
   color: #181785;
 }
+
+/* styling the DBS (default browser style) anchor link */
+a{
+  color: crimson;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* even when hovering */
+a:hover{
+  color: red;
+  font-weight: bold;
+  background: cyan;
+  text-decoration: underline;
+}
