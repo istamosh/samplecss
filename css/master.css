@@ -296,10 +296,15 @@ a:hover{
   text-decoration: underline;
 }
 
-/* adding letterspacing for every p inside articles */
+/* adding letterspacing, wordspacing, and lineheight for every p inside articles */
 article p{
   font-size: 30px;
   letter-spacing: 3px;
   word-spacing: 8px;
   line-height: 20px;
+}
+
+/* adding paragraph spacing inside articles */
+article p{
+  margin-bottom: 50px;
 }
