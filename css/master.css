@@ -323,3 +323,31 @@ article p{
   padding-top: 10px;
   padding-left: 40px;
 }
+
+/* adding several varieties of box borders, left direction */
+.box{
+  float: left;
+  margin: 20px;
+  padding: 10px;
+}
+.dashed{
+  border: 1px teal dashed;
+}
+.dotted{
+  border: 1px teal dotted;
+}
+.double{
+  border: 10px teal double;
+}
+.groove{
+  border: 10px teal groove;
+}
+.inset{
+  border: 10px teal inset;
+}
+.outset{
+  border: 10px teal outset;
+}
+.ridge{
+  border: 10px teal ridge;
+}
