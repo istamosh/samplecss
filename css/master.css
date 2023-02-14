@@ -268,3 +268,13 @@ article p{
   font-weight: lighter;
   font-family: "Adobe Arabic";
 }
+
+/* transform header p (index) into uppercase every letter */
+#header p{
+  text-transform: uppercase;
+}
+
+/* transform body direct descendant/child p into capital */
+body > p{
+  text-transform: capitalize;
+}
