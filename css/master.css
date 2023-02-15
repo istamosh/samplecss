@@ -326,7 +326,7 @@ article p{
 
 /* adding several varieties of box borders, left direction */
 .box{
-  float: left;
+  /* float: left; */
   margin: 20px;
   padding: 10px;
 }
@@ -350,4 +350,19 @@ article p{
 }
 .ridge{
   border: 10px teal ridge;
+}
+
+/* block and inline placement example, little h2 adjustment */
+.verticalHorizontalPlacement h2{
+  padding-left: 10px;
+}
+.block{
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+}
+.inline{
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
 }
