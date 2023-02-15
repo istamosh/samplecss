@@ -406,3 +406,15 @@ article p{
   width: 34.5%;
   display: inline-block;
 }
+
+/* adding rounded box for static block */
+#widthHeightSample > .static{
+  border-radius: 0 25px 0 25px;
+}
+
+/* making inline block to circle */
+#widthHeightSample > .inlineBlock{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
