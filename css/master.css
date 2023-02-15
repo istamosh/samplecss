@@ -366,3 +366,19 @@ article p{
   margin: 10px;
   border: 1px solid black;
 }
+
+/* make inline stacked neatly when exceeding browser width */
+.inline{
+  display: inline-block;
+}
+
+/* make inline link stacked neatly too with some styling */
+.inlineLink > a{
+  padding: 10px;
+  margin: 10px;
+  background-color: grey;
+  border: 1px solid blue;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
