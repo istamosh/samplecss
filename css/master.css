@@ -436,3 +436,17 @@ article p{
 #widthHeightSample > .static{
   background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) center right no-repeat;
 }
+
+/* adding multiple background example */
+#main > .box{
+  background-image: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png), url(https://upload.wikimedia.org/wikipedia/commons/b/b8/Finlaysonin_Mannesmann_Mulag-auto.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px, 100%;
+  background-position: center, top left;
+}
+
+/* adding text shadow (4-sides workaround) to make it visible */
+#main > .box{
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  color: white;
+}
