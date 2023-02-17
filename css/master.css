@@ -517,3 +517,8 @@ article p{
   background: -webkit-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
   background: linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
 }
+
+/* adding button shadow w/ shorthanded modifier */
+#button > .clickMe{
+  box-shadow: 2px 2px 4px 2px rgba(40, 40, 40, 0.6);
+}
