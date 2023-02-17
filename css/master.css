@@ -431,3 +431,8 @@ article p{
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/* background propeties can be shorthanded */
+#widthHeightSample > .static{
+  background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) center right no-repeat;
+}
