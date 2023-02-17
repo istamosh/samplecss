@@ -450,3 +450,39 @@ article p{
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   color: white;
 }
+
+/* adding tri-circle opacity example */
+#triCircle > #circle{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: rgb(200, 200, 100);
+  border-radius: 200px;
+  top: 1500px; /*default is 50px but conflicted w/ main element*/
+  left: 50px;
+  opacity: 1;
+}
+
+#triCircle > #circle2{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: rgb(200, 100, 200);
+  border-radius: 200px;
+  top: 1700px; /*default is 250px but conflicted w/ main element*/
+  left: 150px;
+  opacity: 0.3;
+}
+
+/* here if you want to just modify the opacity of background only, not the text */
+#triCircle > #circle3{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: rgba(100, 200, 200, 0.7);
+  text-align: center;
+  border-radius: 200px;
+  top: 1500px; /*default is 50px but conflicted w/ main element*/
+  left: 250px;
+  opacity: 1;
+}
