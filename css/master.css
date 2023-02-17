@@ -418,3 +418,16 @@ article p{
   height: 100px;
   border-radius: 50px;
 }
+
+/* adding background text color */
+#widthHeightSample > .inlineBlock {
+  background-color: darkkhaki;
+}
+
+/* filling background w/ image URL and modify its properties*/
+#widthHeightSample > .static{
+  background-image: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+  background-size: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
